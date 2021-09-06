@@ -149,6 +149,46 @@ a {
   }
 }
 
+/* Blocks */
+.block {
+  --padding-vertical: 6rem;
+  padding: var(--padding-vertical) 2rem;
+  border: 2px solid red;
+  text-align: center;
+}
+
+.block__header {
+  text-align: center;
+}
+
+.block__heading {
+  margin-top: 0;
+}
+
+.block--dark {
+  background: black;
+  color: var(--color-accent);
+}
+
+.block--dark .block__heading {
+  color: white;
+}
+
+.block--skewed-right {
+  padding-bottom: calc(var(--padding-vertical) + 4rem);
+  clip-path: polygon(100% 0, 100% 100%, 0 81%, 0 0);
+}
+
+.block--skewed-left {
+  padding-bottom: calc(var(--padding-vertical) + 4rem);
+  clip-path: polygon(100% 0, 100% 81%, 0 100%, 0 0);
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
 /* Icons */
 
 .icon {
