@@ -24,17 +24,21 @@
     -->
 </head>
 <body>
-
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <nav class="nav collapsible">
         <a class="nav__brand" href="/"><img src="images/logo.svg" alt=""></a>
         <svg class="icon icon--white nav__toggler">
             <use xlink:href="images/sprite.svg#menu"></use>
         </svg>
         <ul class="list  nav__list collapsible__content">
-            <li class="nav__item"><a href="#">Projects</a></li>
-            <li class="nav__item"><a href="#">Work</a></li>
-            <li class="nav__item"><a href="#">Extracurriculars</a></li>
-            <li class="nav__item"><a href="#">Contact Me</a></li>
+            <li class="nav__item"><a href="index.html">Home</a></li>
+            <li class="nav__item"><a href="projects.html">Projects</a></li>
+            <li class="nav__item"><a href="work.html">Work</a></li>
+            <li class="nav__item"><a href="extracurriculars.html">Extracurriculars</a></li>
+            <li class="nav__item"><a href="certificates.html">Certifications</a></li>
+            <li class="nav__item"><a class="nav_social" href="https://www.linkedin.com/in/caitlinrlim" target="_blank" alt="LinkedIn"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+            <li class="nav__item"><a class="nav_social" href="#"><ion-icon name="logo-github" target="_blank" alt="GitHub"></ion-icon></a></li>
         </ul>
     </nav>
     <script src="js/main.js"></script>
@@ -74,21 +78,30 @@
        <div class="centered">
             <h2 class="hero__tagline">Hi, I'm</h2>
             <h2 class="hero__tagline2">CAITLIN</h2>
-            <a href="#" class="btn btn--accent" data-aos="zoom-in">Learn More</a>
+            <a href="#welcome_link" class="btn btn--accent" data-aos="zoom-in">Learn More</a>
         </div>
    </div>
 
    <div class="welcome_info">
-        <h2 class="welcome_title" data-aos="fade-down">A little about me...</h2>
-        <p class="welcome_para" data-aos="fade-up"> I am currently a 2nd year student in the Honours Computer Science program with a minor in Life Science at the University of Ottawa. 
-            Since the discovery of my avid passion for healthcare, I have maintained steadfast in dedicating the majority of my spare time 
-            to educating and immersing myself in all facets of healthcare. As an aspiring computer scientist, I have resolved myself to reconciling 
-            these two vastly different fields, in such a way that I am able to pursue a career in the healthcare industry from a technological perspective.
-            In doing so, I hope to satiate my constant craving for knowledge pertaining to healthcare technology. 
-        </p>
+        <img id = "welcome_link" class="welcome_title" src="images/welcomesign.png" alt="">
+        <!-- <h3 class="welcome_subtitle" data-aos="fade-down">Thank you for taking the time to stop by... </h3> -->
+
+        <div class="welcome_block">
+            <div class="welcome_para"> I am currently a 2nd year student in the Honours Computer Science program with a minor in Life Science at the University of Ottawa. 
+                Since the discovery of my avid passion for healthcare, I have remained steadfast in dedicating the majority of my spare time 
+                to educating and immersing myself in all facets of medical management. 
+                As an aspiring computer scientist, I have resolved myself to reconciling 
+                these two vastly different fields, in such a way that I am able to pursue a career in the healthcare industry from a technological perspective.
+                In doing so, I hope to satiate my constant craving for knowledge pertaining to science and medicine, and contribute to the acceleration of innovation in terms of healthcare technology . 
+        </div>
+        
    </div>
 
-   
+   <footer class="footer--block">
+       <h3 class="footer_Name">CAITLIN LIM</h3>
+       <a class="nav_social" href="https://www.linkedin.com/in/caitlinrlim" target="_blank" alt="LinkedIn"><ion-icon name="logo-linkedin"></ion-icon></a>
+       <a class="nav_social" href="#"><ion-icon name="logo-github" target="_blank" alt="GitHub"></ion-icon></a>
+   </footer>
 
 </body>
 </html>
