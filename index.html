@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!--
     <style type="text/css">
         .hero__content {
@@ -25,7 +26,7 @@
 <body>
 
     <nav class="nav collapsible">
-        <a class="nav__brand" href="/"><img src="images/logo40.svg" alt=""></a>
+        <a class="nav__brand" href="/"><img src="images/logo.svg" alt=""></a>
         <svg class="icon icon--white nav__toggler">
             <use xlink:href="images/sprite.svg#menu"></use>
         </svg>
@@ -37,6 +38,11 @@
         </ul>
     </nav>
     <script src="js/main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+
 
      <!--
     <div class="hero__content">
@@ -49,7 +55,40 @@
     <span class="badge badge--secondary badge--small">10% off</span>
     <button class="btn btn--accent">Learn More About Me</button>
     -->
+    <!--
+   <section class="block block--dark block-skewed-left">
+       <div class="container grid grid--1x2">
+           <div class="hero__content">
+                <h1 class="block__heading">CAITLIN LIM</h1>
+                <p class="hero__tagline">Honours Computer Science Minor in Life Science</p>
+                <a href="#" class="btn btn--accent">Learn More</a>
+            </div>
+            <img class="hero__image" src="images/banner.png" alt="">
+            
+       </div>
+   </section>
+    -->
+
+   <div class="contained">
+       <img class="banner-image" src="images/best.png" alt="">
+       <div class="centered">
+            <h2 class="hero__tagline">Hi, I'm</h2>
+            <h2 class="hero__tagline2">CAITLIN</h2>
+            <a href="#" class="btn btn--accent" data-aos="zoom-in">Learn More</a>
+        </div>
+   </div>
+
+   <div class="welcome_info">
+        <h2 class="welcome_title" data-aos="fade-down">A little about me...</h2>
+        <p class="welcome_para" data-aos="fade-up"> I am currently a 2nd year student in the Honours Computer Science program with a minor in Life Science at the University of Ottawa. 
+            Since the discovery of my avid passion for healthcare, I have maintained steadfast in dedicating the majority of my spare time 
+            to educating and immersing myself in all facets of healthcare. As an aspiring computer scientist, I have resolved myself to reconciling 
+            these two vastly different fields, in such a way that I am able to pursue a career in the healthcare industry from a technological perspective.
+            In doing so, I hope to satiate my constant craving for knowledge pertaining to healthcare technology. 
+        </p>
+   </div>
 
    
+
 </body>
 </html>

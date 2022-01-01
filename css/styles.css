@@ -28,6 +28,7 @@ h2,
 h3 {
   color: var(--color-heading);
   margin-bottom: 1rem;
+  line-height: 1.1;
 }
 
 h1 {
@@ -153,7 +154,6 @@ a {
 .block {
   --padding-vertical: 6rem;
   padding: var(--padding-vertical) 2rem;
-  border: 2px solid red;
   text-align: center;
 }
 
@@ -264,10 +264,6 @@ a {
   }
 }
 
-.hero__image {
-  width: 100%;
-}
-
 /* Collapsibles */
 
 .collapsible__header {
@@ -353,4 +349,80 @@ a {
   .nav__item {
     border: 0;
   }
+}
+
+/* Hero */
+.hero__tagline {
+  font-size: 2rem;
+  letter-spacing: 1px;
+  margin: 2rem 0 5rem;
+}
+
+.hero__image {
+  width: 100%;
+}
+
+/* Banner */
+.banner-image {
+  width: 100%;
+}
+
+hero__content {
+  margin: 0;
+}
+
+.contained {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero__tagline {
+  color: #fff;
+  font-style: italic;
+  font-size: 3rem;
+  margin-bottom: 10%;
+}
+
+.hero__tagline2 {
+  color: #fff;
+  font-style: bold;
+  font-size: 5.5rem;
+  margin-top: 10%;
+  margin-bottom: 20%;
+}
+
+@media screen and (min-width: 768px) {
+  .hero__tagline {
+    font-size: 3rem;
+  }
+
+  .hero__tagline2 {
+    font-size: 6rem;
+  }
+}
+
+.welcome_info {
+  text-align: left;
+  color: #c2b2a5;
+}
+
+.welcome_title {
+  font-size: 3rem;
+  color: var(--color-accent);
+  margin-bottom: 4rem;
+  padding: 4rem 0 0 4rem;
+}
+
+.welcome_para {
+  text-align: left;
+  font-size: 2rem;
+  padding: 0 4rem 4rem 4rem;
 }
