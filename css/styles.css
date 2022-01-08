@@ -458,7 +458,7 @@ hero__content {
 }
 
 .welcome_title {
-  width: 100%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
   /* font-size: 5rem;
@@ -660,7 +660,7 @@ hero__content {
 
 .signs {
   display: block;
-  width: 65%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
   /* font-size: 5rem;
