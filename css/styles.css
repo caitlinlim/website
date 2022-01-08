@@ -497,6 +497,12 @@ hero__content {
   padding: 9rem 4rem 9rem 4rem;
 }
 
+.currentGoals {
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4rem 0 4rem 0;
+}
 @media screen and (min-width: 768px) {
   .welcome_title {
     font-size: 3.5rem;
