@@ -418,6 +418,11 @@ hero__content {
   color: white;
 }
 
+.bannercontain_source {
+  text-align: right;
+  padding-right: 1rem;
+  color: #948d94;
+}
 .centered {
   position: absolute;
   top: 50%;
