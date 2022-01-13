@@ -386,6 +386,25 @@ a {
   }
 }
 
+/* Progress bar */
+.progress-bar {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 20%;
+  background-color: var(--color-accent);
+}
+
+.progress-bar-inner {
+  position: relative;
+  width: 0%;
+  padding: 0px;
+  height: 100%;
+  background-color: #e6d3c3;
+  color: white;
+}
+
 /* Hero */
 .hero__tagline {
   font-size: 2rem;
